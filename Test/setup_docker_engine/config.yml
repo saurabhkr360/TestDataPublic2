@@ -10,7 +10,7 @@ docker:
 
 - image: circleci/cci-demo-docker-primary:0.0.2
 
-working_directory: /go/src/github.com/saurabhkr360/TestDataPublic2/tree/master/Test
+working_directory: /go/src/github.com/saurabhkr360/TestDataPublic2/blob/master/Test/
 
 environment:
 TEST_RESULTS: /tmp/test-results
