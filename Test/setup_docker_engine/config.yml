@@ -13,7 +13,7 @@ docker:
 working_directory: /go/src/github.com/saurabhkr360/TestDataPublic2/blob/master/Test/
 
 environment:
-TEST_RESULTS: /tmp/test-results
+TEST_RESULTS: /home/tmp/test-results
 
 steps:
 - checkout
